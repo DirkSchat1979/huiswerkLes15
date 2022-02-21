@@ -1,0 +1,236 @@
+
+/* algemene pagina-styling */
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+}
+
+/* Hier komt de styling van het header gedeelte */
+
+#headBox {
+  background-color: #000;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.headerParagraaf {
+  margin: 0 auto 50px;
+}
+
+/* Hier komt de styling van het nav gedeelte */
+
+ul {
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  background-color: #626262;
+  border-radius: 8px;
+  color: white;
+  display: block;
+  font-size: 1.2rem;
+  width: 100px;
+  margin: 0 5px;
+  padding: 6px 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+/* Hier komt de styling van het midden gedeelte van de index-pagina */
+
+/* opmaak van de profielfoto*/
+
+#mainSection {
+  background-color: #FFF;
+  padding: 5px;
+}
+
+.kop-site {
+  font-size: 1.4rem;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  width: 66%;
+}
+
+.site-hr {
+  border: 3px solid #000;
+  border-bottom: none;
+  margin: 50px auto 50px;
+  width: 25%;
+}
+
+.afbeelding {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.profielfoto {
+  border: 2px solid #000;
+  border-radius: 100px;
+}
+
+/* opmaak van de inleidingstekst */
+
+.inleidingTekst {
+  background-color: #000;
+  border: 2px solid #000;
+  color: #FFF;
+  font-size: 1.1rem;
+  margin: 50px auto 0;
+  padding: 20px;
+  width: 66%;
+}
+
+.crSwitch {
+  margin: 30px 0;
+  text-align: center;
+}
+
+/* Hier komt de styling van het footer gedeelte */
+
+#footBox {
+  background-color: #000;
+  color: #FFF;
+  margin-top: 100px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.nha {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nha:link {
+  color: #FFF;
+}
+
+.nha:visited {
+  color: #FFF;
+}
+
+.nha:hover {
+  color: #626262;
+}
+
+.foot-hr {
+  background-color: #FFF;
+  margin: 0 auto;
+  width: 15%;
+}
+
+.copyright {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Hier komt de styling van het midden gedeelte van de mijncv-pagina */
+
+/* opmaak van de mijncv kop */
+
+#cvSection {
+  background-color: #FFF;
+  font-size: 1.1rem;
+  padding: 5px;
+}
+
+/* opmaak van de tabellen */
+
+.table-section {
+  padding: 5px;
+}
+
+.cv-table {
+  background-color: #000;
+  border-collapse: collapse;
+  color: #FFF;
+  margin: 0 auto 60px;
+  padding: 50px 20px;
+  width: 66%;
+}
+
+caption {
+  color: #000;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #FFF;
+  padding: 10px;
+  text-align: center;
+  width: 33.3%;
+}
+
+th {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 15px 5px 15px;
+  width: 33.3%
+}
+
+/* Hier komt de styling van het midden gedeelte van de contact-pagina */
+
+.contact-form {
+  margin-top: 90px;
+}
+
+.caption {
+  color: #FFF;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+form {
+  background-color: #000;
+  margin: 0 auto;
+  padding: 20px 5px 40px;
+  width: 66%;
+}
+
+.input-veld, .verzend-knop {
+  border-radius: 4px;
+  display: block;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.1rem;
+  height: 30px;
+  margin: 15px auto;
+  padding: 0 5px;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+textarea.input-veld {
+  height: 100px;
+  padding: 5px;
+}
+
+.verzend-knop:active {
+  background-color: #000;
+  color: #FFF;
+}
